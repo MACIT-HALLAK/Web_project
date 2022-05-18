@@ -1,0 +1,622 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+  font-size: 3px;
+}
+
+#head {
+    background-color: #fff;
+    font-size: 25px;
+    color: rgba(161, 127, 63, 0.432);
+    height:50px;
+    /* text-align: center; */
+    margin: 2px 5px;
+    margin: auto;
+    line-height:50px;
+    width:100%;
+    
+}
+
+.bas-img{
+
+    width: 95px;
+    height: 95px;
+    border-radius: 50px;
+    margin-top: -7px;
+    margin-left: 10px;
+
+}
+
+
+
+#content{
+    background-color: rgb(179, 221, 195);
+    /* font-size: 30px; */
+    color:white;
+    height:350px;
+    text-align: center;
+    margin: 2px 5px;
+    width:100%;
+    margin: auto;
+
+    
+}
+#footer{
+     background-color: #ECF0F1; 
+    font-size: 20px;
+    color:#2C3E50;
+    height:200px;
+    text-align: center;   
+    line-height:50px;
+    width:100%;
+
+    
+}
+
+.boks {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin: 0px;
+  background-color:#f5f5f5;
+  position: relative;
+}
+.boks a{
+ 
+  color:rgb(89, 89, 158);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 27px;
+  padding-left: 3px;
+}
+.boks a:hover{
+  color:navy;
+ text-decoration:none;
+}
+
+.child {
+      position: absolute;
+      right: 0;
+      top: 0;
+}
+
+.child ul {
+  display: grid;
+  grid-template-columns: repeat(4,80px);
+  list-style: none;
+}
+.child ul li  a {
+  color: rgba(161, 127, 63, 0.432);
+}
+.child ul li i:hover {
+ color:orange;
+ font-size: 22px;
+
+}
+.child ul li a:hover {
+  color:orange;
+  text-decoration: none;
+  font-size: 22px;
+ 
+ }
+.img-card{
+    height: 300px;
+    
+}
+.img-slider{
+    height: 450px;
+    
+}
+.imag-anasayfa{
+    width: 170px;
+    height: 170px;
+    float: right;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+.card-pergraf{
+    width: 60%;
+    height: 50%;
+    padding: 15px;
+    border: blue solid 2px;
+    margin-top: 15px;
+}
+@media screen and (max-width: 800px) {
+.imag-anasayfa{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.card-pergraf{
+    
+  margin: auto;
+  width: 70%;
+  
+    
+}
+}
+.ima-yem{
+    height: 250px;
+}
+/* kart of seyhat */
+.giyim{
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 16px;   
+    height: 60px;
+    text-align: center;
+    width: 90%;
+    border-radius: 5px;
+    background-color:#e7e7e7 ;
+}
+.center-text{
+    line-height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8f1f3e;
+    font-weight: bold;
+}
+
+
+
+
+/* giris sayfasi tasarimi  */
+html {
+    height: 100%;
+   
+  }
+  .dbody {
+  
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(#141e30, #243b55); 
+   
+
+  }
+  
+  .login-box {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    color: floralwhite;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  
+  .login-box form .a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    transform: translate(0%, -50%);
+    float: left; 
+  }
+  
+  .login-box .a:hover {
+    background: #03e8f4a4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e8f46e,
+                0 0 25px #03e8f46e,
+                0 0 50px #03e8f46e,
+                0 0 100px #03e8f46e;
+  }
+  
+  .login-box .a span {
+    position: absolute;
+    display: block;
+  }
+  
+  .login-box .a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .login-box .a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .login-box .a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .login-box .a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+  .kayit-ol{
+      float: right;
+      font-size: 18px;
+      color: #30aeb4;
+      text-decoration:underline;
+      font-style: italic;
+  }
+  .kayit-ol:hover{
+    color:#03e9f4 ;
+  }
+ .efect:hover{
+  box-shadow: 0 4px 8px 
+  0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+
+ /* css kod for urun ekle form */
+
+
+
+ input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #0a80f0d2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* uruneleme */
+.container {
+  border-radius: 5px;
+  background-color:#f8f9fa; 
+  /* #f2f2f2;;;  */
+  /* */
+  padding: 20px;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* alert in urun ekleme sayfasi  */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+.alert-s {
+  padding: 20px;
+  background-color: #11c56b; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+/* ------------------------------------------- */
+.card-custom {
+  overflow: hidden;
+  min-height: 450px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-img {
+  height: 200px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-color: inherit;
+}
+
+/* First border-left-width setting is a fallback */
+.card-custom-img::after {
+  position: absolute;
+  content: '';
+  top: 161px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top-width: 40px;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 545px;
+  border-left-width: calc(575px - 5vw);
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: inherit;
+}
+
+.card-custom-avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  position: absolute;
+  top: 100px;
+  left: 1.25rem;
+  width: 100px;
+  height: 100px;
+}
+div a {
+  color: white;
+}
+div a:hover {
+  color: white;
+}
+.icon-giris{
+font-size: 30px;
+color: white;
+line-height: 30px;
+
+
+
+}
+.icon-giris:hover{
+  color: tomato;
+  
+
+}
+.icon-cikis{
+  font-size: 30px;
+  color: white;
+  line-height: 30px;
+  
+  
+}
+.icon-cikis:hover{
+color:tomato;
+}
+
+.font-i:hover{
+color: black;
+}
+.anasayfa-shado{
+  box-shadow: 0 4px 8px 
+  0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 630px) {
+  .child ul {
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    list-style: none;
+  }
+}
+/* iletisim sayfasi tasarimi  */
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(41, 39, 39);
+}
+
+.container-iletisim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 5vh auto;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 0 15px rgb(180, 51, 73);
+  /* background-color: gray; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+input {
+  width: 100%;
+  margin: 5px 0;
+  height: 45px;
+  font-size: 17px;
+  text-align: center;
+  outline: none;
+  border-radius: 15px;
+  border: none;
+  background: rgb(235, 228, 228);
+}
+
+textarea {
+  width: 100%;
+  margin: 5px 0;
+  font-size: 17px;
+  text-align: center;
+  outline: none;
+  border-radius: 15px;
+  border: none;
+  background: rgb(235, 228, 228);
+}
+input[type=submit]{
+  margin: 10px auto;
+  width: 120px;
+  background: rgb(216, 31, 62);
+  color: white;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+background: tomato;
+}
+@media screen and (max-width:600px) {
+  .container{
+      width: 90%;
+  }
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin: 10px;
+  width: 93%;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  padding-left: 20px;
+  padding-right: 20px;
+}
